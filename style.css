@@ -1,5 +1,6 @@
+/* Use a clean serif font for the whole page */
 body {
-	font-family: Arial, sans-serif;
+	font-family: Georgia, "Times New Roman", Times, serif;
 	margin: 0;
 	padding: 0;
 	background: #fafafa;
@@ -7,27 +8,36 @@ body {
 	line-height: 1.6;
 }
 
+/* Header + footer */
 header, footer {
 	text-align: center;
 	padding: 2rem;
 	background: #f0f0f0;
 }
 
+/* Main content */
 main {
 	max-width: 700px;
 	margin: auto;
 	padding: 2rem;
 }
 
+/* Titles */
 h1, h2 {
 	font-weight: 500;
 	color: #222;
 }
 
+/* Links */
 a {
 	color: #007acc;
 	text-decoration: none;
 }
 a:hover {
 	text-decoration: underline;
+}
+
+/* Optional: Add spacing for sections */
+section {
+	margin-bottom: 2rem;
 }
