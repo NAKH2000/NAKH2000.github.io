@@ -1,43 +1,50 @@
-/* Use a clean serif font for the whole page */
+/* Apply a clean serif font to the whole page */
 body {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	margin: 0;
-	padding: 0;
-	background: #fafafa;
-	color: #333;
-	line-height: 1.6;
+    font-family: "Times New Roman", Georgia, Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
 }
 
-/* Header + footer */
+/* Header and footer styling */
 header, footer {
-	text-align: center;
-	padding: 2rem;
-	background: #f0f0f0;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
 }
 
-/* Main content */
+/* Main content area */
 main {
-	max-width: 700px;
-	margin: auto;
-	padding: 2rem;
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
 }
 
-/* Titles */
+/* Section titles */
 h1, h2 {
-	font-weight: 500;
-	color: #222;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 1rem;
 }
 
-/* Links */
+/* Links styling */
 a {
-	color: #007acc;
-	text-decoration: none;
+    color: #007acc;
+    text-decoration: none;
 }
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* Optional: Add spacing for sections */
+/* Add spacing between sections */
 section {
-	margin-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Optional: Footer small text */
+footer p {
+    font-size: 0.9rem;
+    color: #555;
 }
